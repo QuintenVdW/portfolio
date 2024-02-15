@@ -1,0 +1,189 @@
+// basic layout of all pages
+//all students
+@import 'projectVariables';
+
+$display-font-sizes: (
+  1: 5rem, 2: 10rem
+);
+
+$font: 'Cinzel', 'sans-serif';
+
+h1 {
+  font-family: $font;
+  font-size: 50px;
+
+}
+
+h2 {
+  font-family: $font;
+  font-size: 40px;
+
+}
+
+.navbar {
+  opacity: 80%;
+  background-color: white;
+}
+
+p {
+  font-family: 'Raleway';
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+nav ul a:hover {
+  color: lightpink;
+}
+
+.home {
+  color: lightpink;
+}
+.home:hover {
+  color: gray;
+}
+
+
+.mainTop{
+  margin-top: 95px;
+}
+
+.navbarSpace{
+  margin-right: 40px;
+  margin-left: 50px;
+}
+
+.navbarSpace li{
+  padding-left: 15px;
+}
+
+.slogan {
+  font-family: $font;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -1600%);
+  font-weight: bold;
+  color: white;
+  font-size: 80px;
+}
+
+.fictional{
+  font-family: $font;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -1800%);
+  color: white;
+  font-size: 30px;
+
+}
+
+button:hover{
+
+  background-color: pink;
+  box-shadow: 1px 1px rgba(100, 100, 100, 0.2);
+}
+
+
+.portfolioButton{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+
+  font-family: $font;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  background-color: $primary;
+  margin: 0;
+  padding: 12px;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+
+}
+
+.aboutButton {
+  position: absolute;
+
+  font-family: $font;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  background-color: $primary;
+  margin: 20px 0 0 200px;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.packagesbutton{
+  position: absolute;
+
+  font-family: $font;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  background-color: $primary;
+  margin: 10px 0 0 100px;
+  padding: 12px;
+  border-radius: 20px;
+
+
+
+}
+
+.contactbutton{
+  position: absolute;
+
+  font-family: $font;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  background-color: $primary;
+  margin: 10px 0 0 120px;
+  padding: 12px;
+  border-radius: 20px;
+
+}
+
+.text2{
+  margin-top: 200px;
+}
+.imagehead{
+
+  width: 100%;
+  height: 800px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+  .container{
+    margin-top: 250px;
+  }
+
+  #imagetext3 {
+    display: none;
+  }
+
+  .headertext2 {
+    color: black;
+    top: 10%;
+    font-size: 20px;
+    margin-top: -12%;
+  }
+
+
+  #buttonsmall{
+    display: none;
+  }
+
+  #buttonsmall2{
+    display: none;
+  }
+
+  #buttonsmall3{
+    display: none;
+  }
+  #buttonsmall4{
+    display: none;
+  }
+
+
+}
+

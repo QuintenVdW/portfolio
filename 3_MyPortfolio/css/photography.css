@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h2,
+h3 {
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
+    clear: both;
+    border-bottom: 5px solid #000;
+}
+
+h1 {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #000;
+    font-size: 1.5rem;
+    clip-path: polygon(0% 0%, 30% 100%, 70% 100%, 100% 0%);
+    text-align: center;
+}
+
+header p {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.overlay_container {
+    position: relative;
+    max-width: 400px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.overlay {
+    top: 0;
+    position: absolute;
+    width: 400px;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.overlay li {
+    margin: 5px;
+}
+
+.overlay a {
+    color: #fff;
+    padding: 5px;
+}
+
+.overlay a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+figcaption {
+    font-size: 1.4rem;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+footer {
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: right;
+    clear: both;
+}
+
+footer a {
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+a {
+    transition: 1s;
+}
+
+a:hover {
+    transition: 1s;
+}
+
+@media screen and (min-width:800px) {
+    .overlay_container {
+        float: left;
+    }
+
+    #right {
+        float: right;
+    }
+
+    .overlay {
+        position: static;
+        background-color: transparent;
+        color: #000;
+    }
+
+    ul {
+        display: inline-block;
+    }
+
+    p {
+        max-width: 800px;
+    }
+
+    .overlay a {
+        color: #000;
+        padding: 5px;
+    }
+
+    .overlay a:hover {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../images/tile_background.png);
+        background-repeat: repeat-y;
+        background-position: top right;
+
+    }
+
+    #container {
+        max-width: 800px;
+        margin-left: 100px;
+    }
+}
+
+@media print {
+    * {
+        text-align: left;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    header p {
+        display: block;
+    }
+
+    h2,
+    h3 {
+        border: 0px solid #000;
+    }
+
+    p,
+    ul,
+    footer {
+        display: none;
+    }
+}

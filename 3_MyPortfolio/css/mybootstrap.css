@@ -1,0 +1,45 @@
+body {
+    color: lightseagreen;
+}
+
+header {
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+nav {
+    background-color: #ddd;
+}
+
+img {
+    margin: 5px;
+}
+
+#large {
+    display: none;
+}
+
+div div div div {
+    background-color: #dfdfdf;
+}
+
+footer a {
+    color: lightseagreen;
+    padding: 10px;
+}
+
+a {
+    transition: 1s;
+}
+
+a:hover {
+    transition: 1s;
+    background-color: #000;
+    color: lightseagreen;
+}
+
+@media screen and (min-width:992px) {
+    #large {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: silver;
+    background-image: linear-gradient(335deg, #d00 23px, transparent 23px),
+        linear-gradient(155deg, #b00 23px, transparent 23px),
+        linear-gradient(335deg, #d00 23px, transparent 23px),
+        linear-gradient(155deg, #b00 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+    padding: 10px;
+}
+
+h2,
+h3,
+p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.section:nth-child(even) {
+    background-color: darkgray;
+    color: #fff;
+}
+
+.card {
+    max-width: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #444;
+}
+
+.card h3,
+.card p {
+    margin: 5px 10px;
+    padding-left: 2px;
+}
+
+.card a {
+    margin: 5px 10px;
+    padding: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.card a:hover {
+    transition: 1s;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+li {
+    padding: 5px;
+}
+
+#technology .colors li {
+    color: #000;
+}
+
+#technology .colors li:nth-child(1) {
+    background-color: #D6F1FF;
+}
+
+#technology .colors li:nth-child(2) {
+    background-color: #99DBFF;
+}
+
+#technology .colors li:nth-child(3) {
+    background-color: #2386D1;
+}
+
+#technology .card {
+    border: 2px solid #229;
+    background-color: #2386D1;
+    color: #fff;
+    border-radius: 0 25px;
+}
+
+#technology .card h3,
+#technology .card p {
+    border-left: 3px solid #D6F1FF;
+}
+
+#technology .card h3,
+#technology .card a {
+    font-family: monospace;
+}
+
+#technology .card a {
+    background-color: #99DBFF;
+}
+
+#technology .card a:hover {
+    background-color: #D6F1FF;
+}
+
+#gaming .colors li {
+    color: #fff;
+}
+
+#gaming .colors li:nth-child(1) {
+    background-color: black;
+}
+
+#gaming .colors li:nth-child(2) {
+    background-color: red;
+}
+
+#gaming .colors li:nth-child(3) {
+    background-color: darkblue;
+}
+
+#gaming .card {
+    border: 2px solid #229;
+    background-color: black;
+    color: #fff;
+}
+
+#gaming .card h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#gaming .card p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#gaming .card span {
+    color: red;
+}
+
+#gaming .card a {
+    background-color: darkblue;
+    color: #fff;
+}
+
+#gaming .card a:hover {
+    background-color: red;
+    color: darkblue;
+}
+
+#beauty .colors li {
+    color: #fff;
+}
+
+#beauty .colors li:nth-child(1) {
+    background-color: #ddbbaf;
+}
+
+#beauty .colors li:nth-child(2) {
+    background-color: #ceb063;
+}
+
+#beauty .colors li:nth-child(3) {
+    background-color: #E1D1CE;
+}
+
+#beauty .card {
+    background-color: #ddbbaf;
+    color: #fff;
+}
+
+#beauty .card h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+#beauty .card p {
+    font-family: 'Jost', sans-serif;
+}
+
+#beauty .card a {
+    background-color: #ceb063;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+#beauty .card a:hover {
+    background-color: #E1D1CE;
+    color: #000;
+}
+
+#car .colors li {
+    color: #000;
+}
+
+#car .colors li:nth-child(1) {
+    background-color: red;
+}
+
+#car .colors li:nth-child(2) {
+    background-color: yellow;
+}
+
+#car .colors li:nth-child(3) {
+    background-color: dodgerblue;
+}
+
+#car .card {
+    background-color: red;
+    color: yellow;
+}
+
+#car .card h3 {
+    font-family: gyre, serif;
+}
+
+#car .card p {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#car .card a {
+    background-color: dodgerblue;
+    color: yellow;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 5px;
+    border-radius: 0 25px;
+}
+
+#car .card a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+#car .colors li {
+    color: #000;
+}
+
+#wedding {
+    color: #000;
+}
+
+#wedding .colors li:nth-child(1) {
+    background-color: #ccc;
+}
+
+#wedding .colors li:nth-child(2) {
+    background-color: #151515;
+    color: #fff;
+}
+
+#wedding .colors li:nth-child(3) {
+    background-color: White;
+}
+
+#wedding .card {
+    background-color: #ccc;
+    color: black;
+}
+
+#wedding .card h3 {
+    font-family: "Gotham SSm", serif;
+}
+
+#wedding .card p {
+    font-family: 'Riviera Nights', sans-serif;
+}
+
+#wedding .card a {
+    background-color: white;
+    color: #000;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+#wedding .card a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    padding: 10px;
+    padding-left: 0;
+}
+
+footer a {
+    color: #fff;
+    margin: 10px 5px;
+}

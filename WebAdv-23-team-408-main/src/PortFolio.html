@@ -1,0 +1,271 @@
+<!-- Author: Quinten Van der Wildt -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Title</title>
+        <meta name="author" content="Quinten Van der Wildt" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body class="student3 mainTop">
+        <header>
+            <nav class="navbar fixed-top navbar bg-white navbar-expand-md">
+                <div class="container-fluid navbarSpace">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center text-dark text-decoration-none">
+                        <img src="assets/logo_wd_project.svg" alt="test" width="150" height="70">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExample03">
+                        <ul class="nav nav-pills ms-auto navbar-nav navbarSpace">
+                            <li class="nav-item"><a href="index.html" class="home nav-link text-center text-md-start bg-gradient" aria-current="page">Home</a></li>
+                            <li class="nav-item"><a href="PortFolio.html" class="nav-link text-center text-md-start active">Portfolio</a></li>
+                            <li class="nav-item"><a href="Blog.html" class="nav-link text-center text-md-start">Blog</a></li>
+                            <li class="nav-item"><a href="Packages.html" class="nav-link text-center text-md-start">Packages</a></li>
+                            <li class="nav-item"><a href="FAQ.html" class="nav-link text-center text-md-start">FAQ</a></li>
+                            <li class="nav-item"><a href="About_us.html" class="nav-link text-center text-md-start">About us</a></li>
+                            <li class="nav-item"><a href="Contact.html" class="nav-link text-center text-md-start">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="row justify-content-center">
+                <!-- modal boxes -->
+                <!-- modal 1 -->
+                <div id="modal1display" class="col-md-6 col-lg-4 mb-5">
+                    <div class="mx-auto" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <div class="figure-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/student3/wedded_walk.jpg" alt="...">
+                    </div>
+                </div>
+                <!-- modal 2 -->
+                <div id="modal2display" class="col-md-6 col-lg-4 mb-5">
+                    <div class="mx-auto" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/student3/couple_close_up.jpg" alt="...">
+                    </div>
+                </div>
+                <!-- modal 3 -->
+                <div id="modal3display" class="col-md-6 col-lg-4 mb-5">
+                    <div class="mx-auto" data-bs-toggle="modal" data-bs-target="#modal3">
+                        <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/student3/zombie_couple.jpg" alt="...">
+                    </div>
+                </div>
+                <!-- modal 4 -->
+                <div id="modal4display" class="hide col-md-6 col-lg-4 mb-5">
+                    <div class="mx-auto" data-bs-toggle="modal" data-bs-target="#modal4">
+                        <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/student3/pier_walk.jpg" alt="wedded couple on peer">
+                    </div>
+                </div>
+                <!-- modal 5 -->
+                <div id="modal5display" class="hide col-md-6 col-lg-4 mb-5">
+                    <div class="mx-auto" data-bs-toggle="modal" data-bs-target="#modal5">
+                        <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/student3/wedding_boat.jpg" alt="wedded couple on a boat">
+                    </div>
+                </div>
+                <!-- modal 6 -->
+                <div id="modal6display" class="hide col-md-6 col-lg-4 mb-5">
+                    <div class="mx-auto" data-bs-toggle="modal" data-bs-target="#modal6">
+                        <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/student3/wedding_dance.jpg" alt="Wedding Dance of wedded couple">
+                    </div>
+                </div>
+
+                <!-- Modal swap button -->
+                <button id="swapPortfolio" class="button buttonswap">Different Portfolios</button>
+
+                <!-- Modal POP-UP -->
+                <!-- Modal1 -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="modal-title text-secondary text-uppercase mb-0">Wedding</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/student3/wedded_walk.jpg" alt="...">
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">A really happy wedding couple.</p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal2 -->
+                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="modal-title text-secondary text-uppercase mb-0">Wedding</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/student3/couple_close_up.jpg" alt="...">
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">A very happy wedding couple.</p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal3 -->
+                <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="modal-title text-secondary text-uppercase mb-0">Wedding</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/student3/zombie_couple.jpg" alt="...">
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">A crazy zombie wedding.</p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal4 -->
+                <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="modal-title text-secondary text-uppercase mb-0">Wedding</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/student3/pier_walk.jpg" alt="...">
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">A Beach wedding.</p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal5 -->
+                <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="modal-title text-secondary text-uppercase mb-0">Wedding</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/student3/wedding_boat.jpg" alt="...">
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">A wedded couple making a boat trip to celebrate.</p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal6 -->
+                <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="modal-title text-secondary text-uppercase mb-0">Wedding</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/student3/wedding_dance.jpg" alt="...">
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">The first Dance of the wedded couple.</p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="d-flex flex-row justify-content-between m-3">
+                <a href="https://www.thomasmore.be/"> <i class="fa-solid fa-copyright"></i> Thomas More</a>
+                <p>THIS IS A FICTIONAL WEBSITE</p>
+                <p>Quinten Van der Wildt</p>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/student3page1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+<!--Author: Niel Swusten-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="assets/logo_wd_project.svg">
+        <title>FAQ</title>
+        <meta name="author" content="Niel Swusten" />
+        <link rel="stylesheet" href="css/style.css" />
+
+    </head>
+
+    <body class="student1">
+        <div id="spinnerdiv">
+            <div id="spinner" class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+
+        <embed src="assets/logo_wd_project.svg" alt="" width="400" height="190" id="loader">
+        <div style="display:none;" id="display" class="animate-bottom">
+
+
+            <header id="header">
+                <nav class="navbar fixed-top navbar navbar-expand-md">
+                    <div class="container-fluid navbarSpace">
+
+                        <a href="index.html" class="navbar-brand d-flex align-items-center text-dark text-decoration-none">
+                            <img src="assets/logo_wd_project.svg" alt="test" width="150" height="70">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+                                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarsExample03">
+                            <ul class="nav nav-pills ms-auto navbar-nav navbarSpace">
+                                <li class="nav-item"><a href="index.html" class="nav-link text-center text-md-start ">Home</a></li>
+                                <li class="nav-item"><a href="PortFolio.html" class="nav-link text-center text-md-start">Portfolio</a></li>
+                                <li class="nav-item"><a href="Blog.html" class="nav-link text-center text-md-start">Blog</a></li>
+                                <li class="nav-item"><a href="Packages.html" class="nav-link text-center text-md-start">Packages</a></li>
+                                <li class="nav-item"><a href="FAQ.html" class="nav-link text-center text-md-start active">FAQ</a></li>
+                                <li class="nav-item"><a href="About_us.html" class="nav-link text-center text-md-start">About us</a></li>
+                                <li class="nav-item"><a href="Contact.html" class="nav-link text-center text-md-start">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <img id="imagetext2" class="position-relative headerimage" src="assets/student1/beach%20wedding.jpg" alt="couple">
+
+
+            <h1 id="headertext" class="text-center imageText  ">Frequently Asked Questions</h1>
+
+
+            <main id="darkmode">
+
+                <div class="switchdiv">
+
+                    <p id="ligthmodetext">Lightmode</p>
+                    <p id="darkmodetext">Darkmode</p>
+
+                    <label class="switch">
+                        <input onclick="darkmode()" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+                <div id="containerfaq" class="container">
+                    <div class="row justify-content-evenly py-5 ">
+
+                        <div class="card text-bg-light col-lg-5 col-md-5 col-sm-9 text-center p-3 mt-4">
+                            <h5 class="card-header text-bg-light"><i class="fa-solid fa-2xl fa-dollar-sign mb-5"></i></h5>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-3">What are your prices?</h5>
+                                <p class="card-text">You can see all of our packages/prices on the 'Packages' page. You can contact us if
+                                    you want more specific
+                                    packages, and we will make a personal package for you.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="card text-bg-light col-lg-5 col-md-5 col-sm-9 text-center p-3 mt-4">
+                            <h5 class="card-header text-bg-light"><i class="fa-solid fa-2xl fa-basket-shopping mb-5"></i></h5>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-3">How do i order?</h5>
+                                <p class="card-text">You can order by clicking on the package you want. It is also possible to order by
+                                    contacting us by email or
+                                    phone.</p>
+                            </div>
+                        </div>
+
+                        <div class="card text-bg-light col-lg-5 col-md-5 col-sm-9 text-center p-3 mt-4">
+                            <h5 class="card-header text-bg-light"><i class="fa-solid fa-2xl fa-earth-americas mb-5"></i></h5>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-3">Do you work internationally?</h5>
+                                <p class="card-text">We are currently only accepting orders from Belgium and the Netherlands. It is possible
+                                    that we will expand
+                                    in the next couple of years.</p>
+                            </div>
+                        </div>
+
+                        <div class="card text-bg-light col-lg-5 col-md-5 col-sm-9 text-center p-3 mt-4">
+                            <h5 class="card-header text-bg-light"><i class="fa-solid fa-2xl fa-person-dress mb-5"></i></h5>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-3">What should I wear?</h5>
+                                <p class="card-text">Its your day so wear what makes you feel special. It is also possible to wear multiple
+                                    outfits in 1
+                                    shoot.</p>
+                            </div>
+                        </div>
+
+                        <div class="card text-bg-light col-lg-5 col-md-5 col-sm-9 text-center p-3 mt-4">
+                            <h5 class="card-header text-bg-light"><i class="fa-solid fa-2xl fa-camera mb-5"></i></h5>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-3">Can I choose the photographer?</h5>
+                                <p class="card-text">We are currently a team of 3 photographers. Every photographer is specialized in its
+                                    package. this means that
+                                    you can't choose the photographer. Don't worry tho, all the photographers have a heart of gold.</p>
+                            </div>
+                        </div>
+
+                        <div class="card text-bg-light col-lg-5 col-md-5 col-sm-9 text-center p-3 mt-4">
+                            <h5 class="card-header text-bg-light"><i class="fa-solid fa-2xl fa-ban mb-5"></i></h5>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-3">Can I cancel my order?</h5>
+                                <p class="card-text">It is possible to request a cancel for your order if:</p>
+
+                                <ol class="text-left px-5 mx-5 mb-4">
+                                    <li>the fotoshoot cancel request is minimum 2 weeks before the meeting</li>
+                                    <li>you have not yet received the album</li>
+                                    <li>you have called and send a email on the contact page</li>
+
+                                </ol>
+                            </div>
+                        </div>
+
+                        <p class="mt-5">THE DEPOSIT WILL NOT BE REFUNDED IF YOU CANCELED LESS THAN 1 WEEK IN ADVANCED!</p>
+                    </div>
+                </div>
+            </main>
+
+            <footer id="footer">
+                <div class="d-flex flex-row justify-content-between p-3">
+                    <a href="https://www.thomasmore.be/"> <i class="fa-solid fa-copyright"></i> Thomas More</a>
+                    <p>THIS IS A FICTIONAL WEBSITE</p>
+                    <p>Niel Swusten</p>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="js/student1page2.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

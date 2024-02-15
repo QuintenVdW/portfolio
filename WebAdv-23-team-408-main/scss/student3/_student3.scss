@@ -1,0 +1,29 @@
+.student3 {
+  // unique code for student 3
+  // Name student 3: Quinten Van der Wildt
+
+  $default_pixels: 10px;
+
+  div div div img {
+    width: 350px;
+    border-radius: $default_pixels;
+  }
+
+  article{
+    padding-left: $default_pixels;
+    margin-bottom: $default_pixels;
+    background-color: #ddd;
+    border-radius: 15px;
+  }
+
+  .buttonswap{
+    width: 18%;
+    border-radius: 50%;
+    padding: $default_pixels;
+    background-color: $primary;
+  }
+
+  .hide{
+    display: none;
+  }
+}

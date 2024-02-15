@@ -1,0 +1,17 @@
+body {
+    max-width: 750px;
+    margin: auto;
+}
+
+.card {
+    width: 350px;
+    margin: 20px;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.unorderedlist {
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+}
