@@ -1,72 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Your Portfolio - About Me</title>
-    <!-- Add Bootstrap CSS link here -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Add Font Awesome CSS link here -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Quinten Van der Wildt">
+    <meta name="description" content="Portfolio van Quinten Van der Wildt">
+    <title>Portfolio Bootstrap</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Quinten Van der Wildt R0937889</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About Me</a>
-                </li>
-            </ul>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="projects.html">Project</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">about</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-
-    <!-- About Me Page -->
-    <section id="about" class="container mt-5">
-        <div class="row">
-            <!-- 1/3 Column for Photo, Links, Status, and Download CV Button -->
-            <div class="col-md-4">
-                <div class="text-center mb-4">
-                    <img src="your_photo.jpg" alt="Your Photo" class="img-fluid rounded-circle" style="width: 150px;">
-                </div>
-                <p class="text-center">
-                    <a href="https://www.linkedin.com/in/quinten-vdw-21a7b72a2/" target="_blank">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a> |
-                    <a href="mailto:r0937889@student.thomasmore.be">
-                        <i class="far fa-envelope fa-2x"></i>
-                    </a>
-                </p>
-                <p class="text-center">Student</p>
-                <div class="text-center">
-                    <a href="CV.pdf" class="btn btn-primary" download>Download CV</a>
-                </div>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="images/avataaars.png" alt="...">
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+    </header>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Webdesign</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">Web design refers to the process of creating a website, which involves planning, designing, and building a website to be presented on the Internet. It involves a combination of graphic design, user experience design, and technical skills such as HTML, CSS, and JavaScript.
 
-            <!-- 2/3 Column for About Me Text -->
-            <div class="col-md-8">
-                <h2 class="text-center mb-4">About Me</h2>
-                <p>Ik ben Quinten Van der Wildt, student Elektronica-ICT bij Thomas More in Geel. </p>
+                        The main goal of web design is to create a website that is visually appealing, easy to use, and effective at communicating information and achieving the desired objectives of the website owner. This can include creating an online store, providing information about a company or organization, or simply sharing personal content with others.
+                    </p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">Web designers often work with web developers, who are responsible for implementing the technical aspects of the website, and with content strategists, who help plan the content that will be included on the website.
+
+                        There are many tools and resources available for learning web design, including online tutorials, books, and video courses. Some people also choose to pursue a formal education in web design, either through a degree program or certification course.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Add Bootstrap JS and Popper.js (dependency for Bootstrap JS) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        Limburg
+                        <br>
+                        Leopoldsburg
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/QuintenVdW"><i class="fa-brands fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.pexels.com/@quinten-321164159/"><i class="fa-solid fa-camera-retro"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Contacting Me</h4>
+                    <p class="lead mb-0">
+                        <a href="mailto:r0937889@thomasmore.be">Mail me</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 </html>
